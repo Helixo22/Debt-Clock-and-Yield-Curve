@@ -1,12 +1,20 @@
-# Debt-Clock-and-Yield-Curve
-A simple script in python for fetching the pubblic debt of Spain and USA and the yield curve fo Italy, Spain, USA.
+# Debt Clock and Yield Curve
 
-#Installation and running
-Install this library with pip:
+A simple Python script for fetching the public debt of Spain and the USA, as well as the yield curves for Italy, Spain, and the USA.
 
-```pip install httpx selectolax playwright
-playwright install```
+## Installation
 
-Run with:
+Install the required libraries using `pip`:
 
-```python ./main.py```
+```bash
+pip install httpx selectolax playwright
+playwright install
+```
+
+## Running the Script
+
+Run the script with:
+
+```bash
+python ./main.py
+```
